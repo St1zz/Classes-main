@@ -9,6 +9,15 @@ class Spaceship {
     var name = ""
     var health = 0
     var position = 0
+    
+    func moveLeft(){
+        position -= 1
+    }
+    
+    func moveRight(){
+        position += 1
+    }
+    
 }
 
 /*:
